@@ -1,8 +1,10 @@
 .start {
     position: relative;
     width: 100%;
+    /*width: 100%;*/
     height: 100vh;
     display: flex;
+    /*display: block;*/
     align-items: center;
     justify-content: center;
     overflow: hidden;
@@ -24,36 +26,58 @@
     top: 0;
     left: 0;
     width: 100%;
+    /*width: 100%;*/
+    /*display: flex;*/
+
+    /*display: block;*/
+    /*position: absolute;*/
+    /*background-position: center center;*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*right: 0;*/
+    /*bottom: 0;*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*z-index: -1;*/
 }
+
+
 
 .start__colorOverlay {
     position: absolute;
+    /*position: center;*/
     top: 0;
     left: 0;
-    background-color: var(--color-lightgrey); 
+    background-color: var(--color-lightgrey);
     width: 100%;
     height: 100vh;
     opacity: 0.2;
 }
+
 @media all and (max-width: 480px) {
 
     .start h1 {
-    text-align: center;
-    font-size: 4rem;
-    font-family: 'Montserrat', sans-serif;
-    padding: 20px;
-    margin: 15px;
-    z-index: 1;
-    opacity: 0.6;
-    color: var(--color-heading);
-       
+        text-align: center;
+        font-size: 4rem;
+        font-family: 'Montserrat', sans-serif;
+        padding: 20px;
+        margin: 15px;
+        z-index: 1;
+        opacity: 0.6;
+        color: var(--color-heading);
+
     }
 
 }
-@media all and (max-width: 950px) and (min-width: 481px) {
+
+@media all and (max-aspect-ratio: 16/9) and (min-width: 481px) {
+/*@media all and (max-width: 950px) and (min-width: 481px) {*/
     .start {
         position: relative;
-        width: 100%;
+        width: auto;
+        /*width: 100%;*/
         height: 100vh;
         display: flex;
         align-items: center;
@@ -74,16 +98,25 @@
 
     .start__videoContainer {
         position: absolute;
+        /*position: center;*/
         top: 0;
         left: 0;
         width: 100%;
+        /*display: none;*/
+        /*display: flex;*/
+        /*position: relative;*/
+        /*align-content: center;*/
+        /*position: fixed;*/
+        /*z-index: -1;*/
     }
 
     .start__colorOverlay {
         position: absolute;
+        /*position: center;*/
         top: 0;
         left: 0;
-        background-color: var(--color-lightgrey); 
+        background-color: var(--color-lightgrey);
+        /*width: 200%;*/
         width: 100%;
         height: 100vh;
         opacity: 0.2;
