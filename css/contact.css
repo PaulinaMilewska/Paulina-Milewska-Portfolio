@@ -1,0 +1,134 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-background);
+    opacity: 0.9;
+}
+
+.contact h1 {
+    font-size: 3rem;
+    color: var(--color-heading);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contact__description {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.contact__text {
+    color: var(--color-white);
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contact__text p {
+    padding: 20px 15px;
+}
+
+.contact__img {
+    border-radius: 20px;
+    max-width: 300px;
+    max-height: 400px;
+
+}
+
+.contact__icon--img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact__icon img {
+    max-width: 50px;
+    max-height: 40px;
+    border: none;
+}
+
+.contact__icon--img-css {
+    padding: 10px;
+}
+
+@media all and (min-width: 950px) {
+
+    .contact {
+        display: flex;
+        background-color: var(--color-background);
+        opacity: 0.9;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 50px;
+    }
+
+    .contact h1 {
+        font-size: 3rem;
+        color: var(--color-heading);
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Montserrat', sans-serif;
+
+    }
+
+    .contact__description {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 60%;
+
+    }
+
+    .contact__text {
+        color: var(--color-white);
+        align-items: center;
+        justify-content: center;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .contact__text p {
+        padding: 0 15px;
+    }
+
+    .contact__photo img {
+        border-radius: 5%;
+        max-width: 260px;
+        max-height: 400px;
+    }
+
+    .contact__icon {
+        /*display: row;*/
+        color: var(--color-heading);
+        /*text-align: center;*/
+        /*padding: 20px 0;*/
+        position: relative;
+        top: 10px;
+        left: 10px;
+    }
+
+    .contact__icon h1 {
+        padding-bottom: 20px;
+        /*align-items: center;*/
+    }
+
+    .contact__icon img {
+        width: 102px;
+        height: 86px;
+        border: none;
+    }
+
+    .contact__icon--img {
+        display: flex;
+        /*vertical-align: middle;*/
+    }
+}

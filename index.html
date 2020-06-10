@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+    <link rel='stylesheet' type="text/css" href="css/start.css">
+    <link rel='stylesheet' type="text/css" href="css/aboutMe.css">
+    <link rel='stylesheet' type="text/css" href="css/projects.css">
+    <link rel='stylesheet' type="text/css" href="css/project.css">
+    <link rel='stylesheet' type="text/css" href="css/contact.css">
+    <link rel='stylesheet' type="text/css" href="css/footer.css">
+    <link rel='stylesheet' type="text/css" href="css/pages.css">
+    <link rel='stylesheet' type="text/css" href="css/pages.css">
+    <title>Portfolio Paulina Milewska</title>
+    <link rel="icon" type="image/png" href="assets/logo4.jpg" sizes="16x16"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" href="assets/facicon_zdjęcie/favicon-16x16.png" type="image/gif" sizes="16x16">
+</head>
+
+
+<body>
+<header class="header">
+    <div id='header__rwd-menu' class="btn-group">
+        <button type="button" class="btn btn-black " data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+            Menu
+        </button>
+        <div class="dropdown-menu dropdown-menu-right">
+            <a href='#start' class="dropdown-item" type="button">Start</a>
+            <a href='#aboutMe' class="dropdown-item" type="button">About me</a>
+            <!--            <a href='#projects' class="dropdown-item" type="button">Projects</a>-->
+            <a href='#project' class="dropdown-item" type="button">Projects</a>
+            <a href='#contact' class="dropdown-item" type="button">Contact</a>
+        </div>
+    </div>
+    <nav class='header__nav'>
+        <a href="#start">Home</a>
+        <a href="#aboutMe">Info</a>
+        <a href="#project">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+<section id='start' class='start'>
+    <h1> Hello, I'm Paulina ;)<br><br>Junior Java Developer </h1>
+    <div class="start__videoContainer">
+        <div class='start__colorOverlay'></div>
+        <video autoplay loop muted>
+            <source src="assets/Trapcode.mp4" type='video/mp4'>
+        </video>
+    </div>
+</section>
+<section id='aboutMe' class='aboutMe'>
+    <h1>About me</h1>
+    <div class="aboutMe__description">
+        <div class='aboutMe__text'>
+            <p>
+                Programming was supposed to be just a hobby but it became my passion.
+                Now I want to become an experienced programmer.
+                I will be happy if you give me a chance to work in your company.
+                I am ambitious and hard-working.<br>
+                Not let you down.<br>
+            </p>
+        </div>
+        <div class='aboutMe__photo'>
+            <img class='aboutMe__img' src='assets/myPhoto1.jpg' alt='myPhoto'/>
+        </div>
+    </div>
+    <div class='aboutMe__technologies'>
+        <h1>Technologies</h1>
+        <div class='aboutMe__technologies--img'>
+            <div class='aboutMe__technologies--imgFirstSection'>
+                <img src='assets/javaT.png' alt="javaLogo" hspace="20">
+                <img src='assets/springT2.png' alt="springLogo" hspace="20">
+                <img src='assets/hibernateT.png' alt="hibernateLogo" hspace="20">
+            </div>
+            <br>
+            <div class='aboutMe__technologies--imgSecondSection'>
+                <img src='assets/angulatT3.svg' alt="angularLogo" hspace="20">
+                <img src='assets/htmlT.png' alt="htmlLogo" hspace="20">
+                <img src='assets/css3Transparent.png' alt="cssLogo" hspace="20">
+            </div>
+            <br>
+            <div class='aboutMe__technologies--imgThirdSection'>
+                <img src='assets/postgresqlT2.svg' alt="postgresqlLogo" hspace="20">
+                <img src='assets/mssqlT.png' alt="mssqlLogo" hspace="20">
+                <img src='assets/mysql.png' alt="mysqlLogo" hspace="20">
+            </div>
+            <br>
+            <div class='aboutMe__technologies--imgFourthSection'>
+                <img src='assets/git.png' alt="gitLogo" hspace="20">
+                <img src='assets/docker.png' alt="dockerLogo" hspace="20">
+            </div>
+            <br>
+            <div class='aboutMe__technologies--imgFifthSection'>
+                <img src='assets/intellijT.png' alt="intellijLogo" hspace="20">
+                <img src='assets/mavenT6.png' alt="mavenLogo" hspace="20">
+            </div>
+            <br>
+            <div class='aboutMe__technologies--imgSixthSection'>
+                <img src='assets/restT.png' alt="restLogo" hspace="20">
+                <img src='assets/junit.png' alt="junitLogo" hspace="20">
+                <img src='assets/httpT3.png' alt="httpLogo" hspace="20">
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<section id='project' class='project'>
+    <br>
+    <h1>My projects</h1>
+    <br>
+    <div class='project__technologies'>
+
+        <div class='project__technologies--imgFirstSection' data-text="TEXT TEXT TEXT ">
+            <a href="recipe.html">
+                <img src='assets/recipe4.png' alt="recipesLogo" hspace="20" title="RECIPES NOTEBOOK">
+            </a>
+            <a href="game.html">
+                <img src='assets/game5.png' alt="gamesLogo" hspace="20" title="GAME HEROES">
+            </a>
+        </div>
+        <br>
+        <br>
+        <div class='project__technologies--imgSecondSection'>
+            <a href="students.html">
+                <img src='assets/student3.jpg' alt="studentsLogo" hspace="20" title="STUDENT LIST">
+            </a>
+            <a href="wrestlers.html">
+                <img src='assets/wrestling2.png' alt="wrestlersLogo" hspace="20" title="WRESTLERS">
+            </a>
+        </div>
+        <br>
+        <br>
+        <div class='project__technologies--imgThirdSection'>
+            <a href="norris.html">
+                <img src='assets/chuck2.png' alt="norrisLogo" hspace="250" title="NORRIS JOKES">
+            </a>
+        </div>
+    </div>
+</section>
+
+
+<section id='contact' class='contact'>
+    <h1>Contact</h1>
+    <br><br>
+    <div class="contact__icon">
+        <div class="contact__icon--imgFirstSection">
+            <img style="vertical-align: middle" src="assets/phone2.png" alt="phoneLogo" hspace="20">
+            <span style="vertical-align:middle">+48 537-473-359</span>
+
+        </div>
+        <br>
+        <div class="contact__icon--imgSecondSection">
+            <img style="vertical-align: middle" src="assets/mail2.png" alt="emailLogo" hspace="20">
+            <span style="vertical-align:middle">java.angular.sql@gmail.com</span>
+
+        </div>
+        <br>
+        <div class="contact__icon--imgThirdSection">
+            <img  src="assets/linkedin3.png" alt="linkedinLogo" hspace="20">
+            <a href="https://www.linkedin.com/in/paulina-milewska-3a3ba3a1/" style="color: var(--color-heading)">
+                <span style="vertical-align:middle">https://www.linkedin.com/in/paulina-milewska-3a3ba3a1/</span>
+            </a>
+        </div>
+
+    </div>
+</section>
+</body>
+<footer>
+    <br><br><br><br><br><br><br><br><br><br>
+    &copy 2020 Paulina Milewska
+</footer>
+
+</html>

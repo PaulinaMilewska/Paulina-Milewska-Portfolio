@@ -1,0 +1,130 @@
+.aboutMe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-background);
+    opacity: 0.9;
+}
+
+.aboutMe h1 {
+    font-size: 3rem;
+    color: var(--color-heading);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.aboutMe__description {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.aboutMe__text {
+    color: var(--color-white);
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.aboutMe__text p {
+    padding: 20px 15px;
+}
+
+.aboutMe__img {
+    border-radius: 20px;
+    max-width: 300px;
+    max-height: 400px;
+}
+
+.aboutMe__technologies--img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.aboutMe__technologies img {
+    max-width: 70px;
+    max-height: 60px;
+    border: none;
+}
+
+.aboutMe__technologies--img-css {
+    padding: 10px;
+}
+
+@media all and (min-width: 950px) {
+
+    .aboutMe {
+        display: flex;
+        background-color: var(--color-background);
+        opacity: 0.9;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 50px;
+    }
+
+    .aboutMe h1 {
+        font-size: 3rem;
+        color: var(--color-heading);
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Montserrat', sans-serif;
+
+    }
+
+    .aboutMe__description {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 60%;
+
+    }
+
+    .aboutMe__text {
+        color: var(--color-white);
+        align-items: center;
+        justify-content: center;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .aboutMe__text p {
+        padding: 0 15px;
+    }
+
+    .aboutMe__photo img {
+        border-radius: 5%;
+        max-width: 260px;
+        max-height: 400px;
+    }
+
+    .aboutMe__technologies {
+        display: row;
+        color: var(--color-heading);
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .aboutMe__technologies h1 {
+        padding-bottom: 20px;
+    }
+
+    .aboutMe__technologies img {
+        width: 102px;
+        height: 86px;
+        border: none;
+    }
+
+    .aboutMe__technologies--img {
+        display: flex;
+    }
+}

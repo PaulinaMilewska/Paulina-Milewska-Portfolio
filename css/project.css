@@ -1,0 +1,105 @@
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-background);
+    opacity: 0.9;
+    /*display: flex;*/
+    /*background-color: var(--color-background);*/
+    /*opacity: 0.9;*/
+    /*flex-direction: column;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    /*padding-top: 50px;*/
+}
+
+.project h1 {
+    font-size: 3rem;
+    color: var(--color-heading);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.project__technologies--img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: sans-serif;
+    transform: translate(-50%, -50%);
+    position: absolute;
+
+
+}
+
+.project__technologies img {
+    width: 420px;
+    height: 210px;
+    border: none;
+    /*display: table-row;*/
+    /*flex-direction: column;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+}
+
+.project__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 80%;
+    opacity: 0;
+    transition: .5s ease;
+    background: darkgoldenrod;
+}
+
+.project__content {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    text-transform: uppercase;
+    font-size: 13px;
+
+}
+
+
+.project__technologies img:hover {
+
+    /*width: 430px !important;*/
+    /*height: 220px !important;*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*bottom: 0;*/
+    /*right: 0;*/
+    /*height: 100%;*/
+    /*width: 80%;*/
+    /*background: rgba(51, 170, 51, .4);*/
+    /*background-color: rgba(128,128,128,0.9) !important;*/
+    /*filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#4cffffff', endColorstr='#4cffffff'); !* IE *!*/
+
+    opacity: 0.2;
+    transition: .5s ease;
+    /*content: attr(data-text);*/
+
+    color: black;
+    text-transform: uppercase;
+    font-size: 13px;
+    /*display:inline-block;*/
+}
+
+.project__technologies--img:after {
+    content: attr(data-text);
+}
+
+.project__technologies--img-css {
+    padding: 10px;
+}

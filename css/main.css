@@ -1,0 +1,14 @@
+:root {
+    --color-background: rgb(12, 12, 12);
+    --color-white: #fff;
+    --color-lightgrey: lightgray;
+    /*--color-heading: orange;*/
+    --color-heading: cornflowerblue;
+    --color-introduce: cornflowerblue;
+}
+
+html, body{
+    scroll-behavior: smooth;
+    background-color:#000000; 
+    /*background-color: cornflowerblue; */
+}
